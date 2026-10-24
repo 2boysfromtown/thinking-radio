@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Thinking Radio</title>
+<meta name="description" content="The Thinking Radio: if AI existed in 1932. A funny rubber-hose cartoon series by Navratan, made entirely in code. Watch No. 1 now.">
+<meta name="theme-color" content="#151311">
+<meta property="og:title" content="The Thinking Radio">
+<meta property="og:description" content="If AI existed in 1932. A rubber-hose cartoon series made entirely in code, by navratan.ai.">
+<meta property="og:type" content="video.tv_show">
+<meta property="og:image" content="media/ep01/poster.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M12 60V30a20 20 0 0 1 40 0v30z' fill='%23151311'/%3E%3Ccircle cx='25' cy='32' r='6' fill='%23fff'/%3E%3Ccircle cx='39' cy='32' r='6' fill='%23fff'/%3E%3Ccircle cx='26' cy='33' r='3'/%3E%3Ccircle cx='38' cy='33' r='3'/%3E%3Cpath d='M22 45q10 7 20 0' stroke='%23fff' stroke-width='3' fill='none'/%3E%3Cellipse cx='32' cy='6' rx='4' ry='5' fill='%23fff' stroke='%23151311' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/Shrikhand-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#now">Skip to the picture</a>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="topbar">
+  <a class="brand" href="#top" aria-label="navratan.ai presents The Thinking Radio, back to top"><span class="brand-name">navratan.ai</span><span class="brand-presents">presents</span></a>
+  <nav class="nav" aria-label="Sections">
+    <a href="#now">Now Showing</a>
+    <a href="#programme">Programme</a>
+    <a href="#about">About</a>
+  </nav>
+  <div class="lang" role="group" aria-label="Language: dub and subtitles">
+    <button type="button" data-lang="en" aria-pressed="true">English</button>
+    <button type="button" data-lang="hi" lang="hi" aria-pressed="false" aria-label="हिन्दी (Hindi)">हिन्दी</button>
+    <button type="button" data-lang="ta" lang="ta" aria-pressed="false" aria-label="தமிழ் (Tamil)">தமிழ்</button>
+  </div>
+</header>
+
+<main id="top">
+  <!-- ============ TITLE CARD ============ -->
+  <section class="hero" aria-labelledby="series-title">
+    <div class="bulbs" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <p class="hook plate plate--small"><span>If AI existed</span><span>in 1932</span></p>
+
+      <svg class="radio-art" viewBox="0 -10 240 272" role="img" aria-labelledby="radio-art-t">
+        <title id="radio-art-t">The Thinking Radio: a pie-eyed cathedral radio with a glowing valve on its head, waving a white glove</title>
+        <defs>
+          <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+            <stop offset="0" stop-color="#fffdf4" stop-opacity=".95"/>
+            <stop offset=".35" stop-color="#f3eedf" stop-opacity=".55"/>
+            <stop offset="1" stop-color="#f3eedf" stop-opacity="0"/>
+          </radialGradient>
+          <linearGradient id="glass" x1="0" x2="1">
+            <stop offset="0" stop-color="#fdfbf4"/><stop offset="1" stop-color="#d9d3c6"/>
+          </linearGradient>
+          <clipPath id="win"><path d="M72 142V118a48 48 0 0 1 96 0v24z"/></clipPath>
+        </defs>
+        <!-- arms (rubber hose) -->
+        <path class="arm arm-wave" d="M54 150C26 148 18 116 30 88" fill="none" stroke="#0e0c0a" stroke-width="9" stroke-linecap="round"/>
+        <g class="glove glove-wave"><circle cx="30" cy="78" r="15" fill="#fbf8f1" stroke="#0e0c0a" stroke-width="4"/><path d="M22 92h16" stroke="#0e0c0a" stroke-width="4" stroke-linecap="round"/><path d="M25 70v8M31 68v9M37 71v8" stroke="#0e0c0a" stroke-width="2.5" stroke-linecap="round"/></g>
+        <path d="M186 168c26 2 34 22 28 40" fill="none" stroke="#0e0c0a" stroke-width="9" stroke-linecap="round"/>
+        <g><circle cx="213" cy="217" r="14" fill="#fbf8f1" stroke="#0e0c0a" stroke-width="4"/><path d="M205 204h16" stroke="#0e0c0a" stroke-width="4" stroke-linecap="round"/></g>
+        <!-- legs and shoes -->
+        <path d="M98 236v14M142 236v14" stroke="#0e0c0a" stroke-width="9" stroke-linecap="round"/>
+        <ellipse cx="92" cy="253" rx="18" ry="8" fill="#0e0c0a"/><ellipse cx="148" cy="253" rx="18" ry="8" fill="#0e0c0a"/>
+        <ellipse cx="86" cy="250" rx="5" ry="2" fill="#6d665c"/><ellipse cx="142" cy="250" rx="5" ry="2" fill="#6d665c"/>
+        <!-- valve on top -->
+        <circle class="tube-glow" cx="120" cy="26" r="34" fill="url(#glow)"/>
+        <path class="tube-rays" d="M102.1 18.1L93.7 15.1M109.1 7.2L103.9 -0.2M120 3L120 -6M130.9 7.2L136.1 -0.2M137.9 18.1L146.3 15.1M137.9 33.9L146.3 36.9M102.1 33.9L93.7 36.9" stroke="#0e0c0a" stroke-width="3.2" stroke-linecap="round"/>
+        <rect x="111" y="40" width="18" height="13" rx="3" fill="#0e0c0a"/>
+        <ellipse cx="120" cy="26" rx="11" ry="15" fill="url(#glass)" stroke="#0e0c0a" stroke-width="3.5"/>
+        <path d="M116 35v-8q4-7 8 0v8" fill="none" stroke="#0e0c0a" stroke-width="1.8" stroke-linecap="round"/>
+        <!-- cabinet -->
+        <path d="M50 236V122a70 70 0 0 1 140 0v114z" fill="#2b2723" stroke="#0e0c0a" stroke-width="5"/>
+        <path d="M60 230V124a60 60 0 0 1 120 0v106" fill="none" stroke="#4d463e" stroke-width="3"/>
+        <rect x="44" y="226" width="152" height="15" rx="5" fill="#0e0c0a"/>
+        <!-- face window with sunburst fretwork -->
+        <path d="M72 142V118a48 48 0 0 1 96 0v24z" fill="#9a9285" stroke="#0e0c0a" stroke-width="4"/>
+        <g clip-path="url(#win)" stroke="#3a352f" stroke-width="3">
+          <path d="M120 142L70 92M120 142L88 70M120 142L120 60M120 142L152 70M120 142L170 92M120 142L66 124M120 142L174 124"/>
+        </g>
+        <!-- pie eyes -->
+        <g class="eyes">
+          <ellipse cx="101" cy="114" rx="16" ry="20" fill="#fbf8f1" stroke="#0e0c0a" stroke-width="4"/>
+          <ellipse cx="139" cy="114" rx="16" ry="20" fill="#fbf8f1" stroke="#0e0c0a" stroke-width="4"/>
+          <ellipse cx="104" cy="118" rx="8.5" ry="12" fill="#0e0c0a"/>
+          <ellipse cx="136" cy="118" rx="8.5" ry="12" fill="#0e0c0a"/>
+          <path d="M104 118l2-11 5 6z" fill="#fbf8f1"/><path d="M136 118l2-11 5 6z" fill="#fbf8f1"/>
+        </g>
+        <!-- grille smile -->
+        <path d="M82 166q38 30 76 0q-38 13-76 0z" fill="#fbf8f1" stroke="#0e0c0a" stroke-width="3.5" stroke-linejoin="round"/>
+        <path d="M96 170v7M108 172v9M120 173v9M132 172v9M144 170v7" stroke="#0e0c0a" stroke-width="2"/>
+        <!-- knob cheeks -->
+        <circle cx="86" cy="204" r="11" fill="#0e0c0a" stroke="#5c554b" stroke-width="2"/><path d="M86 204l5-7" stroke="#fbf8f1" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="154" cy="204" r="11" fill="#0e0c0a" stroke="#5c554b" stroke-width="2"/><path d="M154 204l-5-7" stroke="#fbf8f1" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+
+      <div class="title-plate plate">
+        <h1 id="series-title" class="shrikhand title">The Thinking Radio</h1>
+        <p class="limelight subline">Model A.I. &middot; 1932</p>
+      </div>
+
+      <p class="tagline" id="tagline">A rubber-hose picture in which the world's first artificial intelligence behaves exactly like a modern chatbot.</p>
+      <p class="hero-cta">
+        <a class="btn btn--ink" href="#now" id="cta-watch">&#9654;&ensp;Watch No. 1</a>
+        <a class="btn" href="#programme">The Programme</a>
+      </p>
+    </div>
+    <div class="bulbs bulbs--bottom" aria-hidden="true"></div>
+  </section>
+
+  <!-- ============ NOW SHOWING ============ -->
+  <section id="now" class="now" aria-labelledby="now-h">
+    <h2 id="now-h" class="section-title"><span class="limelight kicker">Now Showing</span><span class="shrikhand sr-title" id="now-title">The Thinking Radio</span></h2>
+
+    <div class="now-grid">
+      <div class="screen plate" id="screen">
+        <div class="stage" id="stage" data-format="wide">
+          <video id="player" controls playsinline preload="metadata" aria-describedby="ep-logline">
+            <p>Your browser cannot play this film. <a href="media/ep01/thinking-radio.mp4">Download the MP4</a>.</p>
+          </video>
+          <div class="loader" id="loader" role="status" aria-live="polite">
+            <svg viewBox="0 0 60 84" aria-hidden="true">
+              <circle class="loader-glow" cx="30" cy="30" r="29" fill="url(#lglow)"/>
+              <defs><radialGradient id="lglow"><stop offset="0" stop-color="#fffdf4" stop-opacity=".95"/><stop offset=".4" stop-color="#f3eedf" stop-opacity=".45"/><stop offset="1" stop-color="#f3eedf" stop-opacity="0"/></radialGradient></defs>
+              <path d="M18 56V26a12 12 0 0 1 24 0v30z" fill="#e9e4d8" fill-opacity=".25" stroke="#f6f2ea" stroke-width="2.5"/>
+              <path class="loader-fil" d="M24 46l3-16 3 16 3-16 3 16" fill="none" stroke="#fffdf4" stroke-width="2" stroke-linejoin="round"/>
+              <rect x="15" y="56" width="30" height="10" rx="2" fill="#f6f2ea"/>
+              <path d="M21 66v10M27 66v12M33 66v12M39 66v10" stroke="#f6f2ea" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+            <span class="loader-text">Warming up the valves&hellip;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="ep-info">
+        <div class="controls" role="group" aria-label="Picture options">
+          <div class="seg" role="group" aria-label="Picture format" id="format-seg">
+            <button type="button" data-format="wide" aria-pressed="true">Wide</button>
+            <button type="button" data-format="reel" aria-pressed="false">Reel</button>
+          </div>
+          <button type="button" class="btn btn--small" id="cc-btn" aria-pressed="false">Subtitles: off</button>
+        </div>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
+
+        <article class="ticket ticket--info" aria-labelledby="ep-title">
+          <p class="ticket-row limelight"><span id="ep-num">No. 1</span><span id="ep-runtime"></span></p>
+          <h3 class="shrikhand ep-title" id="ep-title">The Thinking Radio</h3>
+          <p class="ep-subtitle limelight" id="ep-subtitle"></p>
+          <p class="ep-logline" id="ep-logline"></p>
+          <dl class="ep-langs" id="ep-langs"></dl>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROGRAMME ============ -->
+  <section id="programme" class="programme" aria-labelledby="prog-h">
+    <h2 id="prog-h" class="section-title"><span class="limelight kicker">Tonight's Programme</span><span class="shrikhand sr-title">Five Reels, One Radio</span></h2>
+    <ol class="grid" id="grid" aria-label="Episodes"></ol>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="about" aria-labelledby="about-h">
+    <div class="plate about-plate">
+      <h2 id="about-h" class="limelight about-h">Made entirely in code</h2>
+      <ul class="about-list">
+        <li>
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 12h32v24H8z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M19 20l-5 4 5 4M29 20l5 4-5 4M26 18l-4 12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3 class="limelight">Drawn in JavaScript</h3>
+          <p>Every frame, every pie eye and rubber-hose arm is drawn by code on a canvas, 24 frames a second.</p>
+        </li>
+        <li>
+          <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="16" y="6" width="16" height="24" rx="8" fill="none" stroke="currentColor" stroke-width="3"/><path d="M20 13h8M20 18h8M20 23h8" stroke="currentColor" stroke-width="2"/><path d="M11 24a13 13 0 0 0 26 0M24 37v6M16 43h16" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          <h3 class="limelight">Voiced on a local model</h3>
+          <p>The voices come from a text-to-speech model running on the creator's own PC. The man is Navratan's own voice, cloned.</p>
+        </li>
+        <li>
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M18 34V10l20-4v24" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><ellipse cx="13" cy="35" rx="6" ry="5" fill="currentColor"/><ellipse cx="33" cy="31" rx="6" ry="5" fill="currentColor"/></svg>
+          <h3 class="limelight">Scored from free samples</h3>
+          <p>An original hot-dance-band score, its notes played by code from free CC0 sample libraries.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p class="the-end shrikhand" aria-hidden="true">The End</p>
+  <p class="footer-brand limelight">navratan.ai</p>
+  <p class="credits">A cartoon series by Navratan. Voices: Chatterbox Turbo by Resemble AI (MIT), run locally. Samples: Versilian Studios community libraries (CC0). Drawing engine adapted from Lemo-Opuscar (MIT). Type: Shrikhand, Limelight and IM FELL English SC under the <a href="fonts/OFL-shrikhand.txt">SIL Open Font License</a>. All characters are original.</p>
+</footer>
+
+<div class="iris" id="iris" aria-hidden="true"></div>
+<script src="app.js" defer></script>
+</body>
+</html>

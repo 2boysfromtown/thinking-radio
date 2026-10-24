@@ -1,0 +1,72 @@
+1
+00:00:00,350 --> 00:00:03,370
+1932! The future is here!
+
+2
+00:00:03,390 --> 00:00:06,650
+The Thinking Radio. It knows everything!
+
+3
+00:00:07,400 --> 00:00:09,890
+Radio! Play me some music.
+
+4
+00:00:09,910 --> 00:00:12,740
+Of course! But first, do you accept cookies?
+
+5
+00:00:12,760 --> 00:00:14,668
+Uh... sure?
+
+6
+00:00:16,568 --> 00:00:18,368
+Cookies accepted!
+
+7
+00:00:19,374 --> 00:00:21,864
+Okay. What's the weather like?
+
+8
+00:00:21,884 --> 00:00:24,932
+Sunny! Not a cloud in the sky.
+
+9
+00:00:26,532 --> 00:00:28,485
+It's raining.
+
+10
+00:00:28,505 --> 00:00:32,760
+You're absolutely right! What a brilliant observation!
+
+11
+00:00:32,780 --> 00:00:34,804
+Anyway... sunny!
+
+12
+00:00:35,204 --> 00:00:37,604
+That's it! Turn yourself OFF!
+
+13
+00:00:37,624 --> 00:00:41,164
+Happy to help! First, prove you're not a robot.
+
+14
+00:00:44,614 --> 00:00:47,224
+Smart-WHAT? Those don't even exist!
+
+15
+00:00:47,244 --> 00:00:50,324
+Hmm. That's exactly what a robot would say.
+
+16
+00:00:55,424 --> 00:00:57,948
+I run on batteries.
+
+17
+00:00:59,398 --> 00:01:01,438
+Would you like me to summarise this cartoon?
+
+18
+00:01:01,458 --> 00:01:04,285
+NO! NO!
+

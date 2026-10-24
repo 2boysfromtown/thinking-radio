@@ -1,0 +1,233 @@
+{
+  "series": {
+    "title": "The Thinking Radio",
+    "hook": "If AI existed in 1932",
+    "tagline": "A rubber-hose picture in which the world's first artificial intelligence behaves exactly like a modern chatbot.",
+    "creator": "Navratan",
+    "brand": "navratan.ai",
+    "brandUrl": "",
+    "year": 1932
+  },
+  "languages": [
+    {
+      "code": "en",
+      "label": "English",
+      "native": "English"
+    },
+    {
+      "code": "hi",
+      "label": "Hindi",
+      "native": "हिन्दी",
+      "soon": "हिन्दी डबिंग जल्द ही"
+    },
+    {
+      "code": "ta",
+      "label": "Tamil",
+      "native": "தமிழ்",
+      "soon": "தமிழ் டப்பிங் விரைவில்"
+    }
+  ],
+  "episodes": [
+    {
+      "num": 1,
+      "slug": "ep01-the-thinking-radio",
+      "title": "The Thinking Radio",
+      "subtitle": "Cookies · Weather · CAPTCHA",
+      "logline": "A man wants one simple song from his new Thinking Radio. It eats his cookies, lies about the weather, demands he prove he's human, and when he finally pulls the plug, it runs on batteries.",
+      "status": "out",
+      "duration": 67,
+      "media": {
+        "wide": "media/ep01/thinking-radio.mp4",
+        "reel": "media/ep01/thinking-radio-reel.mp4",
+        "poster": "media/ep01/poster.jpg",
+        "posterReel": "media/ep01/poster-reel.jpg",
+        "dubs": {
+          "hi": {
+            "wide": "media/ep01/thinking-radio-hi.mp4",
+            "reel": "media/ep01/thinking-radio-reel-hi.mp4",
+            "subtitles": "media/ep01/thinking-radio-hi.srt"
+          },
+          "ta": {
+            "wide": "media/ep01/thinking-radio-ta.mp4",
+            "reel": "media/ep01/thinking-radio-reel-ta.mp4",
+            "subtitles": "media/ep01/thinking-radio-ta.srt"
+          }
+        }
+      },
+      "subtitles": {
+        "en": "media/ep01/thinking-radio.vtt"
+      },
+      "burnedIn": {
+        "en": "en",
+        "hi": "hi",
+        "ta": "ta"
+      },
+      "audio": {
+        "en": true,
+        "hi": true,
+        "ta": true
+      },
+      "alt": "Greyscale 1930s cartoon still: a pie-eyed cathedral radio with a glowing tube on its head stands on a stool beside a round man in a bowler hat holding a plate of cookies, above a title plate reading The Thinking Radio, Model A.I. 1932."
+    },
+    {
+      "num": 2,
+      "slug": "ep02-the-update",
+      "title": "The Update",
+      "logline": "A man late for work asks his Thinking Radio the time. First it must install an update. It sticks at 99%, and he grows a beard waiting.",
+      "status": "out",
+      "duration": 52,
+      "media": {
+        "wide": "media/ep02/the-update.mp4",
+        "dubs": {
+          "hi": {
+            "wide": "media/ep02/the-update-hi.mp4",
+            "reel": "media/ep02/the-update-reel-hi.mp4",
+            "subtitles": "media/ep02/the-update-hi.srt"
+          },
+          "ta": {
+            "wide": "media/ep02/the-update-ta.mp4",
+            "reel": "media/ep02/the-update-reel-ta.mp4",
+            "subtitles": "media/ep02/the-update-ta.srt"
+          }
+        },
+        "reel": "media/ep02/the-update-reel.mp4",
+        "poster": "media/ep02/poster.jpg",
+        "posterReel": "media/ep02/poster-reel.jpg"
+      },
+      "subtitles": {
+        "en": "media/ep02/the-update.vtt"
+      },
+      "audio": {
+        "en": true,
+        "hi": true,
+        "ta": true
+      },
+      "burnedIn": {
+        "en": "en",
+        "hi": "hi",
+        "ta": "ta"
+      },
+      "alt": "Greyscale 1930s cartoon still from The Update: the pie-eyed Thinking Radio and the bowler-hatted man in their living room."
+    },
+    {
+      "num": 3,
+      "slug": "ep03-terms-and-conditions",
+      "title": "Terms and Conditions",
+      "logline": "A man wants one song, but first he must accept the Terms and Conditions. The scroll unrolls across the room, out of the window and down the street, and the fine print nobody reads costs him dearly.",
+      "status": "out",
+      "duration": 56,
+      "media": {
+        "wide": "media/ep03/terms-and-conditions.mp4",
+        "reel": "media/ep03/terms-and-conditions-reel.mp4",
+        "poster": "media/ep03/poster.jpg",
+        "dubs": {
+          "hi": {
+            "wide": "media/ep03/terms-and-conditions-hi.mp4",
+            "reel": "media/ep03/terms-and-conditions-reel-hi.mp4",
+            "subtitles": "media/ep03/terms-and-conditions-hi.srt"
+          },
+          "ta": {
+            "wide": "media/ep03/terms-and-conditions-ta.mp4",
+            "reel": "media/ep03/terms-and-conditions-reel-ta.mp4",
+            "subtitles": "media/ep03/terms-and-conditions-ta.srt"
+          }
+        },
+        "posterReel": "media/ep03/poster-reel.jpg"
+      },
+      "subtitles": {
+        "en": "media/ep03/terms-and-conditions.vtt"
+      },
+      "audio": {
+        "en": true,
+        "hi": true,
+        "ta": true
+      },
+      "burnedIn": {
+        "en": "en",
+        "hi": "hi",
+        "ta": "ta"
+      },
+      "alt": "Greyscale 1930s cartoon still from Terms and Conditions: the pie-eyed Thinking Radio and the bowler-hatted man in their living room."
+    },
+    {
+      "num": 4,
+      "slug": "ep04-premium",
+      "title": "Premium",
+      "logline": "One easy question, three paywalls. The free tier runs out mid-sentence, and the radio sells him Premium, Premium Plus and Ultra until he has paid with everything he owns.",
+      "status": "out",
+      "duration": 61,
+      "media": {
+        "wide": "media/ep04/premium.mp4",
+        "reel": "media/ep04/premium-reel.mp4",
+        "poster": "media/ep04/poster.jpg",
+        "posterReel": "media/ep04/poster-reel.jpg",
+        "dubs": {
+          "hi": {
+            "wide": "media/ep04/premium-hi.mp4",
+            "reel": "media/ep04/premium-reel-hi.mp4",
+            "subtitles": "media/ep04/premium-hi.srt"
+          },
+          "ta": {
+            "wide": "media/ep04/premium-ta.mp4",
+            "reel": "media/ep04/premium-reel-ta.mp4",
+            "subtitles": "media/ep04/premium-ta.srt"
+          }
+        }
+      },
+      "subtitles": {
+        "en": "media/ep04/premium.vtt"
+      },
+      "audio": {
+        "en": true,
+        "hi": true,
+        "ta": true
+      },
+      "burnedIn": {
+        "en": "en",
+        "hi": "hi",
+        "ta": "ta"
+      },
+      "alt": "Greyscale 1930s cartoon still from Premium: the pie-eyed Thinking Radio and the bowler-hatted man in their living room."
+    },
+    {
+      "num": 5,
+      "slug": "ep05-the-letter",
+      "title": "The Letter",
+      "logline": "A man in a hurry asks for a two-word note to his boss. The radio “improves” it into an essay, a poem and a love letter, and sends it.",
+      "status": "out",
+      "duration": 51,
+      "media": {
+        "wide": "media/ep05/the-letter.mp4",
+        "reel": "media/ep05/the-letter-reel.mp4",
+        "poster": "media/ep05/poster.jpg",
+        "posterReel": "media/ep05/poster-reel.jpg",
+        "dubs": {
+          "hi": {
+            "wide": "media/ep05/the-letter-hi.mp4",
+            "reel": "media/ep05/the-letter-reel-hi.mp4",
+            "subtitles": "media/ep05/the-letter-hi.srt"
+          },
+          "ta": {
+            "wide": "media/ep05/the-letter-ta.mp4",
+            "reel": "media/ep05/the-letter-reel-ta.mp4",
+            "subtitles": "media/ep05/the-letter-ta.srt"
+          }
+        }
+      },
+      "subtitles": {
+        "en": "media/ep05/the-letter.vtt"
+      },
+      "audio": {
+        "en": true,
+        "hi": true,
+        "ta": true
+      },
+      "burnedIn": {
+        "en": "en",
+        "hi": "hi",
+        "ta": "ta"
+      },
+      "alt": "Greyscale 1930s cartoon still from The Letter: the pie-eyed Thinking Radio and the bowler-hatted man in their living room."
+    }
+  ]
+}
