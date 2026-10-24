@@ -274,3 +274,19 @@ section { scroll-margin-top: 64px; }
   .card .stamp { font-size: .68rem; padding: 3px 8px; letter-spacing: .1em; }
   .card-foot { font-size: .72rem; letter-spacing: .04em; }
 }
+
+/* ---------- season 1: make your own ---------- */
+.make { padding: 48px var(--gutter) 56px; background: var(--paper-2); border-bottom: 3px solid var(--ink); }
+.make-steps { list-style: none; margin: 0 auto 30px; padding: 0; max-width: var(--maxw); display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.make-step { padding: 18px 20px 20px; }
+.make-step .make-num { margin: 0 0 8px; width: 40px; height: 40px; display: grid; place-items: center; border-radius: 50%; background: var(--plate); color: var(--white); font-size: 1.1rem; }
+.make-step h3 { margin: 0 0 8px; font-size: 1rem; letter-spacing: .1em; }
+.make-step p { margin: 0 0 10px; color: var(--muted); }
+.make-step a:not(.btn) { color: var(--ink); text-underline-offset: 3px; }
+.follow-plate { max-width: var(--maxw); margin: 0 auto; padding: 26px 24px 28px; text-align: center; }
+.follow-h { position: relative; z-index: 1; margin: 0 0 16px; letter-spacing: .12em; font-size: clamp(.95rem, 3vw, 1.2rem); }
+.follow-list { position: relative; z-index: 1; list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.follow-list .btn { text-transform: none; font-family: Limelight, serif; letter-spacing: .04em; }
+.footer-follow { margin: 10px 0 0; color: var(--muted-dark); font-size: .98rem; }
+.footer-follow a { color: var(--white); }
+.hero-season { position: relative; z-index: 1; margin: 18px auto 0; display: inline-block; padding: 6px 16px; background: var(--plate); color: var(--white); border-radius: 999px; letter-spacing: .12em; font-size: clamp(.8rem, 2.6vw, 1rem); box-shadow: 3px 3px 0 var(--ink); }

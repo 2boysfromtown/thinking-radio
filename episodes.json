@@ -3,10 +3,11 @@
     "title": "The Thinking Radio",
     "hook": "If AI existed in 1932",
     "tagline": "A rubber-hose picture in which the world's first artificial intelligence behaves exactly like a modern chatbot.",
-    "creator": "Navratan",
-    "brand": "navratan.ai",
-    "brandUrl": "",
-    "year": 1932
+    "creator": "Navaratan",
+    "brand": "navaratan.ai",
+    "brandUrl": "https://navaratan.ai/",
+    "year": 1932,
+    "season": 1
   },
   "languages": [
     {
